@@ -1,0 +1,1591 @@
+exit
+ls -la
+ssh-keygen 
+ls
+cp .ssh/id_rsa.pub /tmp/marcos.pub
+ifconfig 
+sudo apt-get install ssh
+ls
+mkdir Proyectos
+cd Proyectos/
+ls
+mkdir bbva
+cd bbva/
+ls
+sudo apt-get install php7.0 apache2 apache2-dev mysql-client-5.7 mysql-server-5.7 php7.0-mysql php7.0-mcrypt 
+ls
+apt-get install git
+sudo apt-get install git
+ls
+git clone root@projects.opensistemas.com:/opt/repositories/1472-99-AG-057-01-BBVA_Portal_BBVA_Literacy
+ls
+cd 1472-99-AG-057-01-BBVA_Portal_BBVA_Literacy/
+mysql -u root -p
+ls
+cd ..
+ls
+mv 1472-99-AG-057-01-BBVA_Portal_BBVA_Literacy git
+ls
+cd ..
+cd bbva/
+ls
+mkdir literacy
+mv git/ literacy/
+ls
+cd literacy/
+ls
+cd git/
+ls
+cd ..
+ls
+scp MBP-dgonzalez.local:/tmp/bbva.tar.gz .
+scp dgonzalez@MBP-dgonzalez.local:/tmp/bbva.tar.gz .
+ls
+scp dgonzalez@MBP-dgonzalez.local:/tmp/vhost.conf .
+ls
+tar xvfz bbva.tar.gz 
+ls
+mysql -u root -p literacy < bbva.sql 
+mysql -u root -p bbva_literacy < bbva.sql 
+ls
+vim vhost.conf 
+sudo apt-get install vim
+ls
+vim vhost.conf 
+ls
+cd /etc/apache2/
+ls
+cd sites-available/
+ls
+cp 000-default.conf literacy.conf
+sudo cp 000-default.conf literacy.conf
+sudo vim literacy.conf 
+cd
+cd Proyectos/bbva/literacy/git/wordpress/
+pwd
+cd -
+ls
+cd /etc/apache2/sites-available/
+ls
+vim literacy.conf 
+sudo vim literacy.conf 
+sudo vim /etc/hosts
+ls
+cd ..
+ls
+cd sites-enabled/
+ls
+ls -lhtr
+sudo ln -s ../sites-available/literacy.conf literacy.conf
+ls -lhtr
+sudo service apache2 restart
+cd
+ls
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd literacy/
+ls
+cd git/
+ls
+cd wordpress/
+ls
+cp wp-config-sample.php wp-config.php
+vim wp-config.php 
+ls
+vim test.php
+vim test2.php
+cd
+sudo vim /etc/apache2/apache2.conf 
+cd /etc/apache2/
+ls
+cd mods-enabled/
+ls
+cd ..
+ls
+cd mods-available/
+ls
+cd ..
+cd mods-enabled/
+ls
+cd ..
+lls
+ls
+cd mods-available/
+ls
+cd ..
+cd mods-enabled/
+ls -lhtr
+ln -s ../mods-available/vhost_alias.load vhost_alias.load
+sudo ln -s ../mods-available/vhost_alias.load vhost_alias.load
+sudo ln -s ../mods-available/rewrite.load rewrite.load
+sudo service apache2 restart
+cd /var/www/html/
+ls
+cd -
+ls
+cd ..
+vim apache2.conf 
+vim ports.conf 
+vim apache2.conf 
+grep -Rni --color "DocumentRoo" .
+cd /var/www/html/
+ls
+vim hola.html
+sudo vim hola.html
+sudo vim test.php
+cd
+cd /etc/apache2/
+ls
+sudo apt-get install libapache2-mod-php
+
+ls
+cd sites-enabled/
+ls
+vim literacy.conf 
+cd /home/mplaza/Proyectos/bbva/literacy/git/
+ls
+cd wordpress/
+ls
+vim test.php 
+cd /var/www/html/
+ls
+rm test.php 
+sudo rm test.php 
+ls
+cd -
+ls
+cd -
+cd /etc/apache2/
+ls
+sudo a2enmod rewrite 
+sudo a2enmod vhost_alias 
+sudo a2enmod alias 
+sudo service apache2 restart
+cd -
+ls
+cd /home/mplaza/Proyectos/bbva/literacy/git/
+ls
+cd wordpress/
+ls
+vim wp-config.php 
+sudo service apache2 restart
+exit
+cd
+tail -f /var/log/apache2/literacy-*
+sudo apt install php7.0-xml
+tail -f /var/log/apache2/literacy-*
+sudo apt-get install php7.0-mbstring 
+exit
+sudo service apache2 restart
+ls
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd literacy/
+ls
+cd git/
+ls
+cd wordpress/
+ls
+rm test*
+ls
+rm /var/www/html/hola.html 
+sudo rm /var/www/html/hola.html 
+ls
+vim wp-config.php 
+mysql -u root -p
+ls
+cd /etc/
+ls
+cd apache2/
+ls
+cd sites-available/
+ls
+vim literacy.conf 
+vim /etc/hosts
+exit
+sudo apt install guake
+sudo apt-cache search tweak
+
+ver
+sudo apt-cache search tweak
+sudo apt install unity-tweak-tool
+cd Descargas/
+ls
+dpkg -i vivaldi-stable_1.4.589.38-1_amd64.deb 
+sudo dpkg -i vivaldi-stable_1.4.589.38-1_amd64.deb 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get -f install
+sudo dpkg -i vivaldi-stable_1.4.589.38-1_amd64.deb 
+sudo apt-get update
+sudo apt-get upgrade
+ps -e
+guake
+sudo reboot
+sudo apt-get update
+sudo apt-get upgrade
+halt
+sudo apt install printer-driver-all
+sudo apt install netbeans
+ls
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd literacy/
+ls
+cd git/
+ls
+cd wordpress/
+ls
+cd /etc/apache2/sites-available/
+ls
+nano literacy.conf 
+sudo apt install netbeans
+cd /etc/apt/sources.list.d/
+l
+sls
+ls
+rm sp
+sudo rm sp
+ls
+cd /etc/apache2/
+ls
+nano apache2.conf 
+ls
+nano sites-enabled/
+cd sites-available/
+ls
+ccd ..
+cd 
+cd ..
+cd /etc/apache2/sites-enabled/
+ls
+nano literacy.conf 
+cd ..
+ls
+cd 
+ls
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd ..
+mkdir php
+ls
+ping 8.8.8.8
+ifconfig
+cd /etc/apache2/sites-available/
+ls
+nano literacy.conf 
+ls
+cd /etc/apache2
+nano envvars 
+nano /etc/hosts
+ls
+cd sites-available/
+nano literacy.conf 
+sudo apt install chromium-browser
+history 
+history >>/home/mplaza/comandos_instalacion
+echo "export HISTSIZE=1000" >> ~/.bashrc
+echo "export HISTSIZE=5000" >> ~/.bashrc
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/sp
+sudo apt-get update
+sudo apt-get install spotify-client
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install spotify-client
+htop
+sudo apt install htop
+htop
+sudo apt-get install exfat-fuse exfat-utils
+sudo apt-get install gparted 
+sudo apt install eclipse
+sudo apt install gitk
+gitk 
+ls
+cp literacy.conf pruebas.conf
+sudo cp literacy.conf pruebas.conf
+nano pruebas.conf 
+sudo nano pruebas.conf 
+cp pruebas.conf /etc/apache2/sites-enabled/
+sudo cp pruebas.conf /etc/apache2/sites-enabled/
+/etc/init.d/apache2 restart
+nano pruebas.conf 
+sudo nano pruebas.conf 
+sudo cp pruebas.conf /etc/apache2/sites-enabled/
+/etc/init.d/apache2 restart
+cd /etc/apache2/
+ls
+cd sites-available/
+ls
+nano literacy.conf 
+nano pruebas.conf 
+nano literacy.conf 
+nano pruebas.conf 
+cd ..
+cd sites-enabled/
+ls
+ls -la
+rm pruebas.conf 
+sudo rm pruebas.conf 
+ls
+cd ..
+ls sites-available/
+ls
+cd sites-available/
+ls
+ls -la
+cd ..
+cd sites-enabled/
+ls
+ls -la
+ls -la /etc/apache2/sites-available/pruebas.conf pruebas.conf
+ls -la pruebas.conf /etc/apache2/sites-available/pruebas.conf
+ln -s pruebas.conf /etc/apache2/sites-available/pruebas.conf
+ln -s /etc/apache2/sites-available/pruebas.conf pruebas.conf
+sudo ln -s /etc/apache2/sites-available/pruebas.conf pruebas.conf
+ls -la
+nano /etc/hosts
+sudo nano /etc/hosts
+sudo apt install lm-sensors psensor
+sudo reboot
+sudo apt install phpmyadmin 
+cd /etc/apache2/
+ls
+cd sites-available/
+ls
+ls -la
+cp pruebas.conf miWP.conf
+sudo cp pruebas.conf miWP.conf
+nano miWP.conf 
+sudo nano miWP.conf 
+nano /etc/hosts
+sudo nano miWP.conf 
+nano /etc/hosts
+sudo nano /etc/hosts
+/etc/init.d/apache2 restart
+cd ..
+cd sites-enabled/
+ls -la
+ln -s ../sites-available/miWP.conf miwp.conf
+sudo ln -s ../sites-available/miWP.conf miwp.conf
+ls -la
+/etc/init.d/apache2 restart
+cd
+cd Proyectos/MiWordpress/
+ls
+ls -la
+nano wp-config.php
+htop
+gitk
+git config –list
+git status
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd literacy/
+ls
+cd git
+git status
+git -version
+git --version
+git config --list
+php --version
+apt-get update
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt install php7.0-mbstring 
+cd Proyectos/
+ls
+cd bbva/literacy/git/
+git blame 
+ls
+cd wordpress/
+ls
+git blame index.php
+git blame wp-config.php
+ls
+git blame index.php
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd literacy/
+ls
+cd git/
+ls
+cd wordpress/
+ls
+cd ..
+git status 
+ls
+cd git/
+ls
+git status 
+git pull
+sudo apt install mupdf
+su -
+sudo ps -e
+sudo killall guake
+sudo  ps -e|grep gua
+ps -e
+passwd
+cd /home/mplaza/Proyectos/bbva/literacy/git/
+ls
+git pull
+ssh khain.noip.com
+ping khain.noip.me
+ssh khain.noip.me
+ls
+cd wordpress/
+ls
+cd ..
+git pull
+sudo apt install smarty3
+ls
+cd ..
+mkdir momentum
+cd momentum/
+git clone root@projects.opensistemas.com:/opt/repositories/1472-99-AG-058-01-BBVA_Portal_Momentum git
+ls
+cd git/
+ls
+nano test.txt 
+mysql
+ls
+sudo mysql
+cd /etc/apache2/ls
+cd /etc/apache2/
+cp sites-* /home/mplaza/
+sudo cp sites-* /home/mplaza/
+sudo cp sites-* * /home/mplaza/
+sudo cp -R sites-*  /home/mplaza/
+cd
+ls
+chmod 777 -R sites*
+sudo chmod 777 -R sites*
+sudo chmod 777 -R apache2.conf 
+sudo chmod 777 -R ports.conf 
+sudo chmod 777 -R envvars 
+sudo chmod 777 -R magic 
+cd /etc/apache2/
+ls
+cd sites-available/
+ls
+cp literacy.conf momentum.com
+sudo cp literacy.conf momentum.com
+nano momentum.com 
+sudo nano momentum.com 
+cd ..
+cd sites-enabled/
+ln -s ../sites-available/momentum.com momentum.com
+ls
+cd ..
+cd sites-available/
+ls
+mv momentum.com momentum.conf
+sudo mv momentum.com momentum.conf
+cd ..
+cd sites-enabled/
+ln -s ../sites-available/momentum.conf momentum.conf
+sudo ln -s ../sites-available/momentum.conf momentum.conf
+nano /etc/hosts
+sudo nano /etc/hosts
+sudo service apache2 restart
+cd ..
+cd sites-available/
+sudo nano momentum.conf 
+sudo nano /etc/hosts
+cd /home/mplaza/Proyectos/
+ls
+cd php/
+ls
+cd php1/
+ls
+sudo cp index.php /home/mplaza/Proyectos/
+sudo cp index.php /home/mplaza/Proyectos/bbva/momentum/git/
+sudo rm index.php /home/mplaza/Proyectos/
+cd ..
+ls
+cd bbva/
+ls
+cd momentum/
+ls
+cd git/
+ls
+sudo service apache2 restart
+nano /etc/apache2/sites-available/
+nano /etc/apache2/sites-available/momentum.conf 
+chmod 777 -R /home/mplaza/Proyectos/bbva/momentum/git/index.php 
+sudo chmod 777 -R /home/mplaza/Proyectos/bbva/momentum/git/index.php 
+nano /etc/apache2/sites-available/momentum.conf 
+ping khain.noip.me
+cd /etc/apache2/sites-enabled/
+ls -la
+nano momentum.conf 
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd literacy/
+ls
+cd git/
+ls
+git pull
+sudo nano /etc/hosts
+sudo /etc/apache2/sites-available/
+ls
+sudo cd /etc/apache2/sites-available/
+ls
+cd /etc/apache2/sites-available/
+ls
+nano literacy.conf 
+sudo nano literacy.conf 
+sudo service apache2 restart 
+sudo nano literacy.conf 
+nano /etc/hosts
+sudo nano /etc/hosts
+sudo service apache2 restart 
+sudo nano /etc/apache2/sites-available/literacy.conf 
+nano /etc/hosts
+nano /etc/apache2/cd sites-available/
+sudo nano /etc/apache2/cd sites-available/literacy.conf 
+sudo nano /etc/apache2/sites-available/literacy.conf 
+sudo nano /etc/hosts
+ssh khain.noip.me
+cd Proyectos/bbva/ls
+cd Proyectos/bbva/literacy/git/
+git pull
+sudo apt install nodejs
+ping 8.8.8.8
+tail /var/log/apache2/error.log
+tail -f /var/log/apache2/error.log
+tail -f /var/log/apache2/access.log
+tail -f /var/log/apache2/literacy-error_log 
+cd Proyectos/bbva/literacy/git/
+ls
+git pull
+ls -la
+git pull
+cd .git/
+ls
+ls -la
+nano config 
+cd ..
+cd momentum/ls
+ls
+cd momentum/
+ls
+cd git/
+ls
+git pull
+cd ..
+cd literacy/
+ls
+cd git/
+ls
+git pull
+git checkout
+git pull
+git status
+git checkout wordpress/wp-content/themes/bbva-literacy/coauthor.php
+git status
+git checkout releases-sopra/consultantCard.html
+git status
+git pull
+sudo service apache2 restart
+cd Proyectos/bbva/literacy/git/
+git status
+releases-sopra/consultantCard (original).html
+releases-sopra/consultantCard\ (original).html
+tail -f /var/log/apache2/literacy-error_log 
+cd Proyectos/bbva/literacy/git/
+git status
+git add wordpress/wp-content/themes/bbva-literacy/404.php
+git status
+git pull
+git status
+git commit -m "Subo template 404"
+git config --global user.email "mplaza@opensistemas.com"
+git config --global user.name "mplaza"
+git status
+git pull
+git push
+git status
+git commit -m "Subo template 404"
+git pull
+git push
+ping 8.8.8.8
+git pull
+cd Proyectos/bbva/literacy/git/
+git pull
+git status
+git add wordpress/wp-content/plugins/os_politicas/
+git status
+git pull
+git status
+git push
+git status
+git commit
+git commit -m "incluyo widget os_politicas en beta"
+git push
+gitk
+git pull
+git checkout wordpress/wp-content/themes/bbva-literacy/coauthor.php
+git status
+git pull
+git status
+git checkout wordpress/wp-content/plugins/os_politicas/os_politicas.php
+git status
+git commit
+git add wordpress/wp-content/themes/bbva-literacy/coauthor.php
+git commit
+git status
+git commit -m "Cambio en los diseños de redes sociales"
+git pull
+git push
+gitk
+sudo tail -f /var/log/apache2/literacy-error_log 
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd literacy/
+ls
+cd git/
+ls
+git status
+git add wordpress/wp-content/plugins/os_slider_widget/os_slider_widget.php
+git status
+git pull
+gitk
+git pull
+git status
+git pull
+git status
+git add wordpress/wp-content/themes/bbva-literacy/coauthor.php
+git status
+git pull
+git pull -m "coauthor cambios en icono Twiter, os_slider adaptacion a 10.14.2 sopra"
+git commit -m "coauthor cambios en icono Twiter, os_slider adaptacion a 10.14.2 sopra"
+git push
+gitk
+cd Proyectos/bbva/literacy/git/
+git pull
+gitk
+cd Proyectos/
+ls
+cd bbva/literacy/git/
+ls
+git pull
+cd ..
+ls
+cd momentum/
+ls
+cd git/
+ls
+git pull
+ls
+gitk
+ping taiga.opensistemas.com
+ping opensistemas.com
+ping www.opensistemas.com
+ping 65.52.138.141
+ssh 
+mromero@taigaos.westeurope.cloudapp.azure.com
+ssh mromero@taigaos.westeurope.cloudapp.azure.com
+ssh mromero@taigaos.westeurope.cloudapp.azure.com
+ssh khain.noip.me
+ssh 13.81.219.247
+ssh mromero@taigaos.westeurope.cloudapp.azure.com
+ssh mromero@taigaos.westeurope.cloudapp.azure.com
+cd Proyectos/bbva/literacy/git/ç
+cd Proyectos/bbva/literacy/git/
+git pull
+ping khain.noip.me
+ping 8.8.8.8
+arp
+cd Proyectos/bbva/literacy/git/
+git pull
+ssh 13.81.219.247
+nano .bash_history 
+nano .bashrc 
+cat .bash_history > copia_historial_1
+ls
+cat copia_historial_1 
+git pull
+cd Proyectos/bbva/literacy/git/
+git pull
+cd .git/
+ls
+cd hooks/
+ls
+cd ..
+ls -la
+cd branches/
+ls
+cd ..
+cd logs/
+ls
+cd refs/
+ls
+cd remotes/
+ls
+cd ..
+cd remotes/
+cd origin/
+ls
+cd ..
+ls
+cd ..
+ls
+cd objects/
+ls
+cd 71/
+ls
+ls -la
+cd ..
+ls
+ls -la
+cd ..
+ls
+cd refs/
+ls
+cd heads/
+ls
+cd ..
+ls
+cd ..
+ls
+ssh khain.ddns.jazztel.es
+ssh khain@khain.ddns.jazztel.es
+cd Proyectos/bbva/literacy/git/
+git pull
+ssh khain.ddns.jazztel.es
+ssh khain@khain.ddns.jazztel.es
+cd Proyectos/bbva/literacy/
+ls
+git clone root@projects.opensistemas.com:/opt/repositories/1472-99-AG-057-01-BBVA_Portal_BBVA_Literacy
+ls
+cd git
+git status
+git pull
+git status
+cd ..
+ls
+cd git
+git status
+git checkout wordpress/wp-content/plugins/os_politicas/os_politicas.php
+git status
+git checkout wordpress/wp-content/plugins/os_twitter_widget/js/os_twitter_widget.js
+git status
+clear
+git status
+git add wordpress/wp-content/themes/bbva-literacy/single-publicacion.php
+git status
+gitk
+git commit -m "cambio en cadena de texto single-publication.php"
+git pull
+git push
+gitk
+git status
+git add wordpress/wp-content/themes/bbva-literacy/single-publicacion.php
+git commit -m "cambio en cadena de texto single-publication
+
+git commit -m "cambio en cadena de texto single-publication"
+git pull
+git push
+nano /home/mplaza/.bashrc 
+/bin/bash 
+clima
+su -
+cd /root/
+ls
+sudo /root
+sudo cd /root
+cd ..
+cd /
+ls
+sudo cd /root/
+cd lib
+ls
+cd ..
+cd root/
+sudo cd root/
+cd
+ls
+cd Proyectos/bbva/literacy/git
+ls
+git status
+git add wordpress/wp-content/plugins/os_impacto_widget/os_impacto_widget.php
+git commit -m "cambio en cadena de texto impacto_widget"
+git status
+git pull
+git push
+cd /etc/apache2/mods-enabled/
+ls
+ls -la
+clima
+clear
+ssh khain@khainhomelinux.com
+ssh khain@khain.ddns.jazztel.es
+meteo
+cd Proyectos/bbva/literacy/git/
+git pull
+meteo
+git pull
+meteo
+git pull
+git checkout wordpress/wp-content/themes/bbva-literacy/resources/js/script-os.js
+git pull
+git status
+git checkout wordpress/wp-content/plugins/os_politicas/js/
+git add wordpress/wp-content/plugins/os_twitter_widget/os_twitter_widget.php
+git status
+git add wordpress/wp-content/plugins/os_twitter_widget/os_twitter_widget.php
+git pull
+git commit -m "cambio en cadena de texto widget Twitter"
+git push
+gitk
+git status
+git add wordpress/wp-content/themes/bbva-literacy/single-publicacion.php
+git status
+git commit -m "cambio en cadena de texto"
+git pull
+git checkout wordpress/wp-content/themes/bbva-literacy/header.php
+git pull
+git status
+git pull
+git status
+git pull
+git push
+gitk
+git status
+git pull
+git status
+git pull
+nano .git
+cd .git/
+ls
+ls -la
+nano index 
+nano config 
+cd ..
+git pull
+git status
+git add wordpress/wp-content/themes/bbva-literacy/footer.php
+git commit -m "añado enlaces sociales y cambio enlaces politicas"
+git pull
+git status
+git push
+gitk
+git status
+git add wordpress/wp-content/themes/bbva-literacy/404.php
+git status
+git commit -m "Integro codigo de Sopra"
+git pull
+git push
+git pull
+sudo nano /etc/apache2/sites-available/literacy.conf 
+git pull
+curl wttr.in
+sudo nano .bashrc 
+meteo
+/bin/bash 
+nano .bashrc 
+meteo
+/bin/bash 
+ssh khain.ddns.jazztel.es
+su
+sudo find / -iname sublime
+cd Proyectos/bbva/momentum/git/
+ls
+git pull
+ssh khain@khain.ddns.jazztel.es
+cd Proyectos/bbva/literacy/git
+git pull
+git status
+git add wordpress/wp-content/plugins/os_mundo_widget/os_mundo_widget.php
+git status
+git commit -m "cambio en cadena de texto os_mundo_widget"
+git pull
+git push
+gitk
+sudo service network-manager restart
+cd /etc/apache2/sites-available/
+ls
+git pull
+cd 
+cd Proyectos/bbva/literacy/git
+git pull
+git status
+git add wordpress/wp-content/themes/bbva-literacy/footer.php
+git commit -m "cambio en enlaces a politicas footer"
+git pull
+git push
+git pull
+cd /etc/php
+ls
+cd 7.0/
+ls
+cd apache2/
+ls
+nano php.ini 
+sudo nano php.ini 
+sudo service php7.0-fpm 
+sudo service php7.0-fpm restart
+sudo service apache2 restart
+sudo apt install virtualbox virtualbox-dkms virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-guest-dkms virtualbox-guest-utils
+cd Proyectos/bbva/literacy/git
+git pull
+git status
+git add wordpress/wp-content/themes/bbva-literacy/404.php
+git commit -m "cambios en 404"
+git pull
+git status
+git push
+gitk
+git pull
+htop
+git pull
+ls
+cd ..
+cd Proyectos/
+git config --global user.name "marcos.plaza.contractor"
+git config --global user.email "marcos.plaza.contractor@bbva.com"
+git clone https://marcos.plaza.contractor@globaldevtools.bbva.com/bitbucket/scm/brsce/educacion-wordpress.git
+cd bbva/
+ls
+cd ..
+cp -R bbva/ bbva_orig
+ls -la
+cd bbva_orig/
+ls
+cd literacy/
+ls
+cd ..
+cd bbva
+cd ..
+cd bbva
+cd literacy/
+ls
+cd git
+ls
+git pull
+ping 8.8.8.8
+git pull
+git status
+git add wordpress/wp-content/plugins/os_cards_widget_json/os_cards_widget_json.php
+git checkout wordpress/wp-content/themes/bbva-literacy/404.php
+git checkout wordpress/wp-content/themes/bbva-literacy/coauthor_nuevo_mal.php
+git status
+git commit -m "Cambios en literales os_Cards_widget_json"
+git pull
+git push
+git status
+git add wordpress/wp-content/plugins/os_mundo_widget/os_mundo_widget.php
+git status
+git commit -m "cambios en literales os_mundo_widget"
+git pull
+git push
+git status
+git add wordpress/wp-content/plugins/os_filtro_widget/os_filtro_widget.php
+git commit -m "cambio en literales os_filtro_widget"
+git pull
+git push
+git pull
+git status
+git add wordpress/wp-content/plugins/os_cards_widget_json/os_cards_widget_json.php
+git add wordpress/wp-content/themes/bbva-literacy/functions.php
+git commit -m "cambio en literales os_Card_widget y funcions"
+git pull
+git push
+git pull
+gitk
+sudo find / -iname php.ini
+ssh khain@khain.ddns.jazztel.es
+cd Proyectos/bbva/literacy/git/
+git status
+git add wordpress/wp-content/themes/bbva-literacy/single-evento.php
+git commit -m "cambio en literal single-evento"
+git pull
+git push
+git pull
+git status
+git add wordpress/wp-content/themes/bbva-literacy/functions.php
+git status
+git commit -m "cambio en literales functions.php
+git commit -m "cambio en literales functions.php"
+git pull
+git push
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+htop
+git pull
+ssh http://iyanmv.com/2016/10/31/solucion-al-problema-de-los-avatares-en-sddm/
+ssh mromero@taigaos.westeurope.cloudapp.azure.com
+sudo nano /etc/fstab 
+ssh ec2-35-160-42-60.us-west-2.compute.amazonaws.com
+htop
+df -ha
+sudo nano /etc/fstab 
+sudo reboot
+cd .cache/chromium/
+ls
+cd Default/
+ls
+cd Cache/
+ls
+rm -rf
+ls
+rm -rf *
+ls
+cd ..
+ls
+cd ..
+ls
+cd google-chrome/
+ls
+cd  Profile\ 1/
+ls
+cd Cache/
+ls
+rm -rf *
+cd ..
+ls
+sudo /usr/bin/google-chrome-stable --disk-cache-dir="/tmp/ccache/" %U
+df -ha
+sudo nano /etc/fstab 
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo apt search klavaro
+sudo apt search typing
+sudo apt search typing tutor
+sudo apt-get install gtypist klavaro
+gtypist 
+cd Proyectos/bbva/momentum/git/
+git pull
+cd ..
+cd git
+cd literacy/git/
+git pull
+git status
+git add wordpress/wp-content/themes/bbva-literacy/single-evento.php
+git commit -m "cambio en literales single-evento.php"
+git pull
+git push
+git pull
+git status
+git add wordpress/wp-content/plugins/os_filtro_widget/os_filtro_widget.php
+git add wordpress/wp-content/themes/bbva-literacy/functions.php
+git commit -m "cambios en literales filtro_widget y functions"
+git pull
+git push
+cd Proyectos/bbva/momentum/git/wordpress/wp-content/
+ls
+cd uploads/
+ls -la
+cd 2016/
+cd 11
+ls
+ls -l
+acd ..
+cd ..
+ls
+ls -la
+chmod 777 -R uploads/
+cd ..
+c d..
+cd ..
+ls
+git config --global user.name "marcos.plaza.contractor"
+git config --global user.email "marcos.plaza.contractor@bbva.com"
+git clone https://marcos.plaza.contractor@globaldevtools.bbva.com/bitbucket/scm/brsce/educacion-wordpress.git
+cd ~/.ssh
+ls id_+
+ls id_*
+ssh-keygen -t rsa -C "marcos.plaza.contractor@bbva.com"
+cd ..
+git clone https://marcos.plaza.contractor@globaldevtools.bbva.com/bitbucket/scm/brsce/educacion-wordpress.git
+ssh --help
+sudo git clone https://marcos.plaza.contractor@globaldevtools.bbva.com/bitbucket/scm/brsce/educacion-wordpress.git
+git clone ssh://marcos.plaza.contractor@globaldevtools.bbva.com/bitbucket/scm/brsce/educacion-maquetacion.git
+git config --global user.name "marcos.plaza.contractor"
+git config --global user.email "marcos.plaza.contractor@bbva.com"
+git clone ssh://marcos.plaza.contractor@globaldevtools.bbva.com/bitbucket/scm/brsce/educacion-maquetacion.git
+git clone ssh://marcos.plaza.contractor@globaldevtools.bbva.com:7999/bitbucket/scm/brsce/educacion-maquetacion.git
+ssh-keygen -t rsa -C "marcos.plaza.contractor@bbva.com"
+git clone ssh://marcos.plaza.contractor@globaldevtools.bbva.com:7999/bitbucket/scm/brsce/educacion-maquetacion.git
+xclip -selection clipboard < ~/.ssh/id_rsa.pub
+sudo apt install xclip
+xclip -selection clipboard < ~/.ssh/id_rsa.pub
+git clone ssh://marcos.plaza.contractor@globaldevtools.bbva.com:7999/bitbucket/scm/brsce/educacion-maquetacion.git
+ssh-add
+git clone ssh://marcos.plaza.contractor@globaldevtools.bbva.com:7999/bitbucket/scm/brsce/educacion-maquetacion.git
+ssh://git@globaldevtools.bbva.com:7999/brsce/educacion-wordpress.git
+git-clone ssh://git@globaldevtools.bbva.com:7999/brsce/educacion-wordpress.git
+git clone ssh://git@globaldevtools.bbva.com:7999/brsce/educacion-wordpress.git
+ls
+cd educacion-wordpress/
+git init
+git add --all
+git commit -m "prueba de commit"
+git remote add origin https://marcos.plaza.contractor@globaldevtools.bbva.com/bitbucket/scm/brsce/educacion-maquetacion.git
+git push -u origin master
+cd
+cd Proyectos/
+ls
+cd bbva/
+ls
+cd educacion-wordpress/
+ls
+git pull
+ls
+cd wordpress/
+ls
+cd ..
+cd Proyectos/bbva/literacy/git/
+git pull
+cd ..
+ls
+cd ..
+ls
+cd educacion-wordpress/
+ls
+git pull
+cd ..
+cd literacy/git/
+git pull
+cd ..
+cd momentum/
+git pull
+ls
+cd git/
+ls
+git pull
+cd ..
+cd educacion-wordpress/
+ls
+git pull
+cd ..
+cd literacy/
+ls
+cd git/
+ls
+git status
+git add wordpress/wp-content/plugins/os_grupo_autores_widget/os_grupo_autores_widget.php
+git commit -m "cambios en literales os_grupo_autores_widget"
+git status
+git pull
+git push
+git pull
+git status
+git add wordpress/wp-content/themes/bbva-literacy/coauthor.php
+git status
+git commit -m "cambio en literales coauthor"
+git pull
+git push
+sudo apt search numix
+sudo apt install numix-gtk-theme
+git pull
+cd ..
+dc momentum/
+ls
+cd momentum/
+ls
+cd git/
+ls
+git pull
+cd ..
+cd educacion-wordpress/
+s
+ls
+cd wordpress/
+ls
+cd ..
+git pull
+clima 
+sudo apt search gconf-editor
+sudo apt install gconf-editor
+gsettings
+sudo apt search dconf editor
+sudo apt install dconf-editor
+cd Proyectos/bbva/literacy/
+git pull
+cd git/
+git pull
+cd ..
+cd momentum/git/
+git pull
+cd ..
+cd educacion-wordpress/
+ls
+cd wordpress/
+ls
+cd ..
+git pull
+ssh khain@khain.ddns.jazztel.es
+cd Proyectos/bbva/literacy/git/
+git pull
+cd ..
+cd git/
+cd ..
+cd momentum/
+git pull
+cd git/
+git pull
+cd ..
+cd educacion-wordpress/
+git pull
+cd ..
+cd literacy/
+git pull
+cd git/
+git pull
+cd .ssh/
+ls
+nano id_rsa.pub 
+cd Proyectos/bbva/literacy/git/
+git pull
+cd ..
+cd momentum/
+ls
+cd git/
+ls
+git pull
+cd ..
+cd educacion-wordpress/
+ls
+git pull
+sudo nano /etc/ssh/ssh_config 
+sudo service ssh restart
+sudo nano /etc/ssh/ssh_config 
+git pull
+cd ..
+cd literacy/
+ls
+cd git/
+git pull
+cd ..
+cd .
+cd ..
+cd momentum/
+git pull
+cd git/
+git pull
+cd ..
+cd literacy/
+cd git/
+git pull
+ls
+git pull
+ls
+ls -ha
+cd .git
+ls
+cd hooks/
+ls
+clima
+nano .bashrc
+cd
+nano .bashrc
+cd Proyectos/bbva/literacy/git/
+ls
+git pull
+cd ..
+cd educacion-wordpress/
+ls
+cd wordpress/
+ls
+cd ..
+git pull
+apt-get update
+sudo apt-get update
+sudo apt-get upgrade
+cd ..
+cd literacy/git/
+cd .git/
+ls
+cd hooks/
+ls
+nano post-update.sample 
+cd ..
+cd .
+cd ..
+cd ...
+cd ..
+mkdir Pruebas1
+rm -rf Pruebas1/
+mkdir pruebas1
+cd pruebas1/
+git init
+git clone root@projects.opensistemas.com:/opt/repositories/1472-99-AG-057-01-BBVA_Portal_BBVA_Literacy_hook
+ls
+cd 1472-99-AG-057-01-BBVA_Portal_BBVA_Literacy_hook/
+ls
+ls -ha
+ls
+ls -h
+cd ..
+mv 1472-99-AG-057-01-BBVA_Portal_BBVA_Literacy_hook/ git
+ls
+cd git/
+ls
+cd wordpress/
+ls
+cd ..
+ls -la
+cd .git/
+ls
+cd hooks/
+ls
+cp post-update.sample post-update
+nano post-update
+cd ..
+ls
+ls -la
+touch prueba1.txt
+git status
+git add prueba1.txt 
+git commit -m "Prueba1"
+git pull
+git push
+gitk
+cd .git/hooks/
+nano post-update
+touch /tmp/ejecutadohook
+touch prueba2.txt
+git status
+rm prueba2.txt 
+cd ..
+touch prueba2.txt
+git status
+git add prueba2.txt 
+git commit -m "prueba2"
+pit pull
+git pull
+git push
+cat /tmp/ejecutadohook 
+gitk
+cd .git/hooks/
+nano post-update
+cd .
+cd ..
+touch prueba3.txt
+git add prueba3.txt 
+git commit -m "prueba3"
+git pull
+git push
+cat /tmp/ejecutadohook
+nano /tmp/ejecutadohook 
+cd .git/hooks/
+ls
+nano post-update
+echo 1 > /tmp/ejecutadohook
+cat /tmp/ejecutadohook
+rm /tmp/ejecutadohook 
+touch /tmp/ejecutadohook
+cd ..
+nano post-update
+cd .git/hooks/
+nano post-update
+ls
+chmod a+x post-update
+ls -la
+nano post-update
+cd ..
+touch prueba4
+git status
+git add prueba4 
+git commit -m "prueba4"
+git pull
+git push
+cat /tmp/ejecutadohook 
+cd .git/hooks/
+ls
+ls -la
+chmod +x post-update
+ls -la
+nano post-update
+cd ..
+ls
+touch prueba5.txt
+git add prueba5.txt
+git commit -m "prueba5"
+ls
+git push
+ls
+ssh-copy-id git@khain.ddns.jazztel.es
+cd ..
+mkdir triskelion
+cd triskelion/
+ls
+git init 
+git clone ssh://git@khain.ddns.jazztel.es:/media/Datos/Repos/pruebas_opensistemas
+gitk
+git clone git@khain.ddns.jazztel.es:/media/Datos/Repos/pruebas_opensistemas
+ls
+cd pruebas_opensistemas/
+ls
+ls -la
+touch prueba_opensistemas1
+git status
+git add prueba_opensistemas1 
+git commit -m "prueba_opensistemas1"
+git pull
+git push origin master
+gitk
+git pull
+ls
+cp prueba_opensistemas1 prueba_opensistemas2
+git add .
+git commit -m "pruebas2"
+git push
+gitk
+ls -la
+touch prueba_opensistemas3
+ls
+git add .
+git commit -m "pruebas3"
+git push
+touch prueba_opensistemas4
+git add .
+git commit -m "pruebas4"
+git push
+git push --mirror git@github.com:khainzero/pruebas.git
+ssh-copy-id git@github.com:khainzero/pruebas.git
+git push --mirror git@github.com:khainzero/pruebas.git
+ls -la
+cd .git/hooks/
+ls -la
+cp post-update.sample post-update
+nano post-update
+cd ..
+ls 
+touch prueba_opensistemas5
+git add .
+git commit -m "prueba5"
+git push
+gitk
+cd .git/hooks/
+ls -la
+cd ..
+d
+cd ..
+ls
+cat /tmp/ejecutadohook 
+cd .git/hooks/
+cat update.sample 
+ls
+touch post-commit 
+chmod +x post-commit 
+ls -la
+nano post-commit 
+cat update.sample 
+nano post-commit 
+cd ..
+touch prueba_opensistemas6
+git add .
+git commit -m "prueba6"
+cat /tmp/ejecutadohook 
+cd .git/
+cd hooks/
+nano post-commit 
+cd ..
+touch prueba_opensistemas7
+git add .
+git commit -m "prueba7"
+cd
+ls .ssh/
+scp id* root@khain.ddns.jazztel.es:/root/.ssh
+scp id_rsa root@khain.ddns.jazztel.es:/root/.ssh
+cd .ssh/
+scp id* root@khain.ddns.jazztel.es:/root/.ssh
+scp *.pem root@khain.ddns.jazztel.es:/root/.ssh
+cd 
+cd Proyectos/bbva/literacy/
+cd ..
+ls
+cd ..
+ls
+cd triskelion/
+ls
+cd pruebas_opensistemas/
+ls
+touch prueba_opensistemas8
+git add .
+ls
+cd .git/hooks/
+ls
+mv post-commit.sample
+mv post-commit post.commit.sample
+cd ..
+ls
+git commit -m "prueba8"
+touch prueba_opensistemas9
+git add .
+git commit -m "prueba9"
+git push
+touch prueba_opensistemas10
+git add .
+git commit -m "prueba10"
+git push
+cd Proyectos/bbva/literacy/git/
+git pull
+cd ..
+cd momentum/
+cd git/
+git pull
+cd ..
+ssh khain@khain.ddns.jazztel.es
+ping 8.8.8.8
+ifconfig
+sudo ifdown enp5s0
+sudo reboot
+ping 8.8.8.8
+ifconfig
+sudo ifdown wlp4s0
+exit
+ping 8.8.8.8
+cd Proyectos/
+ls
+dc triskelion/
+ls
+dc triskelion/
+ls
+cd triskelion/
+ls
+cd pruebas_opensistemas/
+ls
+ls -la
+touch prueba_opensistemas11
+cd 
+nano .bashrc 
+ls
+lsa
+sudo /bin/bash 
+exit
+killall guake
+ps -e
+ps |grep guake
+guake
+-
+nano .bashrc 
+lsa
+cd ..
+nano .bashr
+ls -la
+cd mplaza/
+nano .bashrc 
+cd -9
